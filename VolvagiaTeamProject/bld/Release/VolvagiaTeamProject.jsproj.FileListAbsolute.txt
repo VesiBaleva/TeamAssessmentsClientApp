@@ -1,0 +1,9 @@
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bin\Release\resources.pri
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bin\Release\AppxManifest.xml
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bin\Release\VolvagiaTeamProject.build.appxrecipe
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Release\priconfig.xml
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Release\layout.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Release\resources.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Release\pri.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Release\LanguageQualifiers.txt
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Release\ProjectArchitectures.txt

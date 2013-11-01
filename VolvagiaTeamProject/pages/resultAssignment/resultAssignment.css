@@ -1,0 +1,40 @@
+﻿.resultAssignment section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+#snapped-logo {
+    display: none;
+}
+
+#evaluation {
+    width:30px;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .resultAssignment section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .resultAssignment {
+        display: none;
+    }
+
+
+    #snapped-logo {
+        display: inline;
+        margin: 150% 25%;
+    }
+    body {
+        background-color:#FFFBF4;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .resultAssignment section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}

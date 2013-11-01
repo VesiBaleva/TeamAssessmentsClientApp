@@ -1,0 +1,121 @@
+﻿#button-login {
+    font-size: 30px;
+    border: none;
+    position:relative;
+    left:15%;
+    top:35%;
+    border: 1px solid #FFC980;
+    padding: 5px 10px 5px 10px;
+}
+
+    #button-login:hover {
+     font-style:italic;
+     background-color:transparent;
+    }
+
+.homepage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/*#teams-list.win-listview {
+    background-color:transparent;
+    height: 60%;
+    width:90%;
+    border:none;
+    padding: 20px;
+}
+
+
+
+#teams-list.win-listview .win-item {
+    background-color:transparent;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    color:#FFC980;
+}*/
+
+#teams-list.win-listview .win-item div {
+font-size:18px;
+}
+
+#button-login {
+    display: none;
+}
+
+#snapped-logo {
+    display: none;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .homepage {
+        display: none;
+    }
+
+
+
+    #snapped-logo {
+        display: inline;
+        margin: 150% 25%;
+    }
+    body {
+        background-color:#FFFBF4;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+
+#no-layout-responsive-message {
+    display: none;
+    font-size:20px;
+}
+
+#teams-list {
+    top:30px;
+    height: 400px;
+    /*border: solid 2px rgba(0, 0, 0, 0.13);*/
+}
+
+#categories-list {
+    
+    height: 200px;
+    /*border: solid 2px rgba(0, 0, 0, 0.13);*/
+}
+
+progress.withText
+{
+    color: inherit; /* Uses the same text color as the page */
+    vertical-align: text-bottom; /* Makes the bottom of the control align with the bottom of its label */
+    height: 50px;
+    width: 50px;
+}
+
+.progressRingText
+{
+    
+    font-size: 40px;
+    line-height: 40px;
+}
+
+/* The margin to separate the ring and its label */
+.progressRingText progress
+{
+    margin-right: 5px;
+}
+
+#progressRing {
+    display: none;
+    margin-top: 100px;
+}

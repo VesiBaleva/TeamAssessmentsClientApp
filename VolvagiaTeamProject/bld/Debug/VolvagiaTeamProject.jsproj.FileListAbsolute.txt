@@ -1,0 +1,65 @@
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\resources.pri
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\AppxManifest.xml
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\VolvagiaTeamProject.build.appxrecipe
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\priconfig.xml.intermediate
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\layout.resfiles.intermediate
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\resources.resfiles.intermediate
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\pri.resfiles.intermediate
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\priconfig.xml
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\layout.resfiles
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\resources.resfiles
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\pri.resfiles
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\LanguageQualifiers.txt
+C:\vib\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\ProjectArchitectures.txt
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\resources.pri
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\AppxManifest.xml
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\VolvagiaTeamProject.build.appxrecipe
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\priconfig.xml.intermediate
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\layout.resfiles.intermediate
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\resources.resfiles.intermediate
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\pri.resfiles.intermediate
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\priconfig.xml
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\layout.resfiles
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\resources.resfiles
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\pri.resfiles
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\LanguageQualifiers.txt
+C:\Users\Angel\Desktop\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\ProjectArchitectures.txt
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\resources.pri
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\AppxManifest.xml
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\VolvagiaTeamProject.build.appxrecipe
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\priconfig.xml.intermediate
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\layout.resfiles.intermediate
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\resources.resfiles.intermediate
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\pri.resfiles.intermediate
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\priconfig.xml
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\layout.resfiles
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\resources.resfiles
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\pri.resfiles
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\LanguageQualifiers.txt
+C:\vib\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\ProjectArchitectures.txt
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\resources.pri
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\AppxManifest.xml
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\priconfig.xml.intermediate
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\layout.resfiles.intermediate
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\resources.resfiles.intermediate
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\pri.resfiles.intermediate
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\priconfig.xml
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\layout.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\resources.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\pri.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\LanguageQualifiers.txt
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bld\Debug\ProjectArchitectures.txt
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject\VolvagiaTeamProject\bin\Debug\VolvagiaTeamProject.build.appxrecipe
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bin\Debug\resources.pri
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bin\Debug\AppxManifest.xml
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bin\Debug\VolvagiaTeamProject.build.appxrecipe
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\priconfig.xml.intermediate
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\layout.resfiles.intermediate
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\resources.resfiles.intermediate
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\pri.resfiles.intermediate
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\priconfig.xml
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\layout.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\resources.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\pri.resfiles
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\LanguageQualifiers.txt
+E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bld\Debug\ProjectArchitectures.txt

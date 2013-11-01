@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="58379.TeamAssessments" Version="1.0.0.3" Publisher="CN=F16D7FAA-20E7-4CA8-8221-9C0FC00B12C1" />
+  <Properties>
+    <DisplayName>Team Assessments</DisplayName>
+    <PublisherDisplayName>Веселина Балева</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Team Assessments" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Team Assesments" ForegroundText="dark" BackgroundColor="#FFFBF4">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFBF4" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

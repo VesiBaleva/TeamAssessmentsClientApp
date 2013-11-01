@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>detailsCategory</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="detailsCategory.css" rel="stylesheet" />
+    <script src="detailscategorycodebehind.js"></script>
+    <script src="detailsCategory.js"></script>
+</head>
+<body>
+    <div class="detailsCategory fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to "<span data-win-bind="innerText:categoryName"></span>" details</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <h2 id="events-start">Assignments:</h2>
+
+            <div id="assignments-list-template" data-win-control="WinJS.Binding.Template">
+               <div class="smallListIconTextItem">
+                   <div class="smallListIconTextItem-Detail">
+                    <!-- Displays the "picture" field. -->
+                    <h4 data-win-bind="innerText: name"></h4>
+                    <h4>Max value: <span data-win-bind="innerText: maxValue"></span></h4>
+                    </div>
+               </div>                 
+            </div>
+            <div id="assignmentsListView" data-win-control="WinJS.UI.ListView"
+                data-win-options="{itemDataSource : ViewModels.Assignments.assignments.dataSource, 
+                    itemTemplate: select('#assignments-list-template'),
+                    selectionMode: 'none'}">
+            </div>
+        </section>
+    </div>
+    <img id="snapped-logo" src="../../Assets/Logo.scale-100.png" />
+</body>
+</html>

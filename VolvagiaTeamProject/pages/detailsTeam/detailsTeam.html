@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>detailsTeam</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="detailsTeam.css" rel="stylesheet" />
+    <script src="../teamsAssignments/teamsassignmentscodebehind.js"></script>
+    <script src="detailsteamcodebehind.js"></script>
+    <script src="detailsTeam.js"></script>
+</head>
+<body>
+    <div class="detailsTeam fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to Team "<span data-win-bind="innerText:teamname"></span>"</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            
+            <div id="short-cats-template" data-win-control="WinJS.Binding.Template">
+                <div class="smallListIconTextItem">
+                    <div class="smallListIconTextItem-Detail">
+                        <span data-win-bind="innerText: categoryName"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="categoriesListView" data-win-control="WinJS.UI.ListView"
+                data-win-options="{
+                    itemDataSource: ViewModels.Categories.categories.dataSource,
+                    itemTemplate: select('#short-cats-template'),
+                    layout : {type: WinJS.UI.GridLayout},                    
+                    selectionMode: 'none'            
+                }">
+            </div>
+            <div id="members-list-template" data-win-control="WinJS.Binding.Template">
+                <div style="width: 150px; height: 100px;">
+                    <!-- Displays the "picture" field. -->
+                   <!-- <h4 data-win-bind="innerText: member"></h4>-->
+                </div>
+            </div>
+            <div id="membersListView" data-win-control="WinJS.UI.ListView"
+                data-win-options="{itemDataSource : ViewModels.Teams.members.dataSource, 
+                    itemTemplate: select('#members-list-template'),
+                    selectionMode: 'none'}">
+            </div>
+        </section>
+    </div>
+    <img id="snapped-logo" src="../../Assets/Logo.scale-100.png" />
+</body>
+</html>

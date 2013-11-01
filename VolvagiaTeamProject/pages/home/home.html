@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="../../js/navigator.js"></script>
+    <script src="../../js/sha1.js"></script>
+    <script src="../../js/dataloader.js"></script>
+    <script src="homecodebehind.js"></script>
+    <script src="/pages/home/home.js"></script>    
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment homepage">
+        <div id="short-team-template" data-win-control="WinJS.Binding.Template">
+            <div class="smallListIconTextItem">
+                <div class="smallListIconTextItem-Detail">
+                   <!-- <span data-win-bind="innerText: id"></span>, -->
+                    <span data-win-bind="innerText: teamname"></span>
+                    <h4>Total points: <span data-win-bind="innerText: sumOfValues"></span></h4>
+                </div>
+            </div>
+        </div>
+        <div id="short-cats-template" data-win-control="WinJS.Binding.Template">
+            <div class="smallListIconTextItem">
+                <div class="smallListIconTextItem-Detail">
+                    <span data-win-bind="innerText: categoryName"></span>
+                </div>
+            </div>
+        </div>
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to Team Evaluation!</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="no-layout-responsive-container">
+                <p id="no-layout-responsive-message">You not generated any teams yet.</p>
+            </div>
+            <button id="login-button" type="button">Login</button>
+            <label id="progressRing" class="progressRingText">
+                <progress class="win-ring withText"></progress>
+                Processing
+            </label>
+            <div id="teams-list" data-win-control="WinJS.UI.ListView"
+                data-win-options="{
+                    itemDataSource: ViewModels.Teams.teams.dataSource,
+                    itemTemplate: select('#short-team-template'),
+                    oniteminvoked: HomeCodeBehind.goToTeamDetailsPage,
+                    layout : {type: WinJS.UI.GridLayout},
+                    selectionMode: 'none',               
+                }">
+            </div>
+            <div id="categories-list" data-win-control="WinJS.UI.ListView"
+                data-win-options="{
+                    itemDataSource: ViewModels.Categories.categories.dataSource,
+                    itemTemplate: select('#short-cats-template'),
+                    layout : {type: WinJS.UI.GridLayout},
+                    oniteminvoked: HomeCodeBehind.goToCategoryDetailsPage,
+                    selectionMode: 'none'            
+                }">
+            </div>
+
+            <div id="home-app-bar" data-win-control="WinJS.UI.AppBar">
+                <button data-win-control="WinJS.UI.AppBarCommand"
+                    data-win-options="{
+                label:'Add Teams', icon:'add', 
+                onclick: HomeCodeBehind.goToTeamAddPage
+                }"
+                    type="button">
+                </button>
+                <button data-win-control="WinJS.UI.AppBarCommand"
+                    data-win-options="{
+                label:'Add Categories', icon:'add', 
+                onclick: HomeCodeBehind.goToCategoryAddPage
+                }"
+                    type="button">
+                </button>
+                <button data-win-control="WinJS.UI.AppBarCommand" id="log-out-button" data-win-options="{
+                        label:'Logout', icon:'go'
+                        }"
+                        type="button">
+                </button>
+            </div>
+        </section>
+    </div>
+    <img id="snapped-logo" src="../../Assets/Logo.scale-100.png" />
+   </body>
+</html>

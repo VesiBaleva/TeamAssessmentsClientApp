@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>addTeam</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="addTeam.css" rel="stylesheet" />
+    <script src="addteamcodebehind.js"></script>
+    <script src="addTeam.js"></script>
+</head>
+<body>
+    <div class="addTeam fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to add Teams</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <label for="members1-input">Members in first column</label>
+            <textarea class="members" cols="20" rows="20" id="members1-input"></textarea>            
+            <label for="members2-input">Members in second column</label>
+            <textarea class="members" cols="20" rows="20" id="members2-input"></textarea>           
+            <label for="teams-input">Teams name</label>
+            <textarea class="members" cols="20" rows="20" id="teams-input"></textarea>
+            <button  id="create-team-button"">Generate teams</button>
+        </section>
+    </div>
+    <img id="snapped-logo" src="../../Assets/Logo.scale-100.png" />
+</body>
+</html>

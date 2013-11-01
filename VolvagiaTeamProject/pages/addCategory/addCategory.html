@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>addCategory</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="addCategory.css" rel="stylesheet" />
+    <script src="../home/homecodebehind.js"></script>
+    <script src="addcategorycodebehind.js"></script>
+    <script src="addCategory.js"></script>
+</head>
+<body>
+    <div class="addCategory fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to add Category with assignments</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+             <div id="pnlCategory">
+                 <div>
+                     <label id="lblCategory" for="category-input">Category: </label>
+                 </div>
+				<div>
+                    <input type="text" id="category-input" />
+				</div>
+				<div>
+                    <label id="lblAssignment" for="assignment-input">Assignment: </label>
+				</div>
+                 <div>
+                     <input type="text" id="assignment-input" />
+                 </div>
+                    
+                <div>
+
+                    <label id="lblMaxValue" for="maxvalue-input">Max value: </label>
+				</div>
+                 <div>
+                    <input type="text" id="maxvalue-input" />
+                 </div>
+                    
+                
+                    <button id="btnAddAssignmentMaxValue">Add</button>
+				    <button id="submitCategory">Submit</button>
+				</div>
+                
+            <div id="container"></div>
+        </section>
+    </div>
+    <img id="snapped-logo" src="../../Assets/Logo.scale-100.png" />
+</body>
+</html>

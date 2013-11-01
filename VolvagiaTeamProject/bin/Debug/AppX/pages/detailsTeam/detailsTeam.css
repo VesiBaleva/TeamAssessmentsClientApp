@@ -1,0 +1,48 @@
+﻿.detailsTeam section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.win-backbutton, #home-app-bar {
+     color: #91521a;
+     border-color:#91521a;
+}
+
+
+
+#snapped-logo {
+    display: none;
+}
+
+#categoriesListView {
+    top:30px;
+    height: 400px;
+    /*border: solid 2px rgba(0, 0, 0, 0.13);*/
+}
+@media screen and (-ms-view-state: snapped) {
+    .detailsTeam section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .detailsTeam {
+        display: none;
+    }
+
+
+
+    #snapped-logo {
+        display: inline;
+        margin: 150% 25%;
+    }
+    body {
+        background-color:#FFFBF4;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .detailsTeam section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}

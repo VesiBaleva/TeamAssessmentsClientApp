@@ -1,0 +1,33 @@
+﻿.teamsAssignments section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+#snapped-logo {
+    display: none;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .teamsAssignments section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .teamsAssignments {
+        display:none;
+    }
+    #snapped-logo {
+        display: inline;
+        margin: 150% 25%;
+    }
+    body {
+        background-color:#FFFBF4;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .teamsAssignments section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
