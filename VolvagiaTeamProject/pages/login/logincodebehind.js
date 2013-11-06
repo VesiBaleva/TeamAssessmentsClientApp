@@ -23,8 +23,8 @@
 
     var goBackToHomePage = function () {
         WinJS.Navigation.back().then(function () {
-            var progressRing = document.getElementById("progressRing");
-            progressRing.style.display = "block";
+         //   var progressRing = document.getElementById("progressRing");
+         //   progressRing.style.display = "block";
             //    HomeCodeBehind.callLoadProfiles().then(function () {
             //        progressRing.style.display = "none";
             //        if (ViewModels.Profiles.profiles.dataSource.list.length == 0) {

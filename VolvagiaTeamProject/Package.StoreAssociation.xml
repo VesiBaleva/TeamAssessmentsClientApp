@@ -354,13 +354,11 @@
       <ReservedName>Team Assessments</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
-  <AccountPackageIdentityNames>
-    <MainPackageIdentityName>58379.TeamAssesments</MainPackageIdentityName>
-  </AccountPackageIdentityNames>
+  <AccountPackageIdentityNames />
   <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/444d275d-c763-4369-8e32-8d764a01d469">
     <PackageInfo>
       <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.0.0.2</PackageMaxArchitectureVersion>
+      <PackageMaxArchitectureVersion>1.0.0.4</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>

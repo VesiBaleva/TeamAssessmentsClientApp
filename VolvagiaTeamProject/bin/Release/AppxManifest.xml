@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="58379.TeamAssessments" Version="1.0.0.3" Publisher="CN=F16D7FAA-20E7-4CA8-8221-9C0FC00B12C1" ProcessorArchitecture="neutral" />
+  <Identity Name="58379.TeamAssessments" Version="1.0.0.5" Publisher="CN=F16D7FAA-20E7-4CA8-8221-9C0FC00B12C1" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>Team Assessments</DisplayName>
     <PublisherDisplayName>Веселина Балева</PublisherDisplayName>

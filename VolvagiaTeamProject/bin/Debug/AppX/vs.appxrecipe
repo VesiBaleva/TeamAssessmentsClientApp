@@ -5,18 +5,18 @@
     <WindowsUser>Beki</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>702FBFF857D680A0E9C978D7CB9BCBE23CC3F2DD608E910EA317BE801F56E7B9</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>58379.TeamAssessments_1.0.0.3_neutral__8tjfh7z2gfbmr</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>79D7CBA4D9110D3F3FBE0209B4473129ACF785A28B2466ECA4DCC5643FA59D62</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>58379.TeamAssessments_1.0.0.4_neutral__8tjfh7z2gfbmr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>58379.TeamAssessments_8tjfh7z2gfbmr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>58379.TeamAssessments</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=F16D7FAA-20E7-4CA8-8221-9C0FC00B12C1</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.3</RegisteredVersion>
+    <RegisteredVersion>1.0.0.4</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-10-28T09:09:25.839</Modified>
+      <Modified>2013-11-06T03:49:31.467</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -74,7 +74,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\detailsCategory\detailsCategory.css">
       <PackagePath>pages\detailsCategory\detailsCategory.css</PackagePath>
-      <Modified>2013-10-18T00:34:51.089</Modified>
+      <Modified>2013-11-06T04:55:48.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\detailsTeam\detailsTeam.css">
       <PackagePath>pages\detailsTeam\detailsTeam.css</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\js\dataloader.js">
       <PackagePath>js\dataloader.js</PackagePath>
-      <Modified>2013-10-17T12:46:21.134</Modified>
+      <Modified>2013-11-01T07:37:37.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -166,7 +166,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-10-21T05:52:39.755</Modified>
+      <Modified>2013-11-05T14:09:28.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\home\homecodebehind.js">
       <PackagePath>pages\home\homecodebehind.js</PackagePath>
@@ -178,7 +178,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\login\logincodebehind.js">
       <PackagePath>pages\login\logincodebehind.js</PackagePath>
-      <Modified>2013-10-18T08:41:27.301</Modified>
+      <Modified>2013-11-05T13:38:25.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\register\register.js">
       <PackagePath>pages\register\register.js</PackagePath>
@@ -198,7 +198,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\teamsAssignments\teamsAssignments.js">
       <PackagePath>pages\teamsAssignments\teamsAssignments.js</PackagePath>
-      <Modified>2013-10-20T20:56:13.594</Modified>
+      <Modified>2013-11-06T08:24:49.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\teamsAssignments\teamsassignmentscodebehind.js">
       <PackagePath>pages\teamsAssignments\teamsassignmentscodebehind.js</PackagePath>
@@ -214,7 +214,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\detailsCategory\detailsCategory.html">
       <PackagePath>pages\detailsCategory\detailsCategory.html</PackagePath>
-      <Modified>2013-10-18T00:30:41.892</Modified>
+      <Modified>2013-11-06T04:23:44.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\detailsTeam\detailsTeam.html">
       <PackagePath>pages\detailsTeam\detailsTeam.html</PackagePath>
@@ -242,11 +242,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\pages\teamsAssignments\teamsAssignments.html">
       <PackagePath>pages\teamsAssignments\teamsAssignments.html</PackagePath>
-      <Modified>2013-10-21T05:57:44.648</Modified>
+      <Modified>2013-11-06T08:23:18.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\My Documents Win7\Telerik Academy\Win8-JS\winjs-team-volvagia\winjs-team-volvagia\VolvagiaTeamProject - ver2\VolvagiaTeamProject\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-10-28T09:09:17.964</Modified>
+      <Modified>2013-11-06T03:49:22.672</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT OVERALL_RESULT="PASS" VERSION="2.2" LATEST_VERSION="FALSE" UPDATE_DOWNLOAD_URL="http://go.microsoft.com/fwlink/?LinkID=246599&amp;amp;clcid=0x409" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="Веселина Балева" OSVERSION="6.2.9200.0" OS="Microsoft Windows 8 Enterprise" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1026" VALIDATION_TYPE="CommandLine" ReportGenerationTime="21.10.2013 г. 9:25:41" ID="a90067b0ffdae4299df7a4c78d7815dd">
+<REPORT OVERALL_RESULT="PASS" VERSION="2.2" LATEST_VERSION="FALSE" UPDATE_DOWNLOAD_URL="http://go.microsoft.com/fwlink/?LinkID=246599&amp;amp;clcid=0x409" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="Веселина Балева" OSVERSION="6.2.9200.0" OS="Microsoft Windows 8 Enterprise" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1026" VALIDATION_TYPE="CommandLine" ReportGenerationTime="6.11.2013 г. 10:43:13" ID="8dbed1bcc6c6405bc3b44ecb1118469b">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="1" TITLE="Clean reversible install test" RATIONALE="A clean, reversible, installation allows users to successfully manage (deploy, and remove) applications on their system." />
     <REQUIREMENT NUMBER="2" TITLE="Install to the correct folders test" RATIONALE="Windows provides specific locations in the file system to store programs and software components, shared application data, and application data specific to a user." />
@@ -12,113 +12,113 @@
     <REQUIREMENT NUMBER="8" TITLE="Safe mode test" RATIONALE="By default, most drivers and services that did not come preinstalled with Windows are not started in Safe Mode. They should remain disabled unless they are needed for basic operations of the system or for diagnostic and recovery purposes." />
     <REQUIREMENT NUMBER="9" TITLE="Multiuser session test" RATIONALE="Windows users should be able to run concurrent sessions without conflict or disruption.  Applications must ensure that when running in multiple sessions either locally or remotely, the normal functionality of the application should not be impacted. Application settings and data files should not be persisted across users. A user’s privacy and preferences should be isolated to the user’s session." />
     <REQUIREMENT NUMBER="10" TITLE="Crashes and hangs test" RATIONALE="Application failures such as crashes and hangs are a major disruption to users and cause frustration. Eliminating such failures improves application stability and reliability, and overall, provides users with a better application experience.">
-      <TEST INDEX="47" NAME="App launch tests" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:26s.32ms">
+      <TEST INDEX="47" NAME="App launch tests" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:30s.51ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:14s.72ms">
+      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:14s.91ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="11" TITLE="Compatibility and resiliency test" RATIONALE="When Windows detects that an application has operated in an incompatible manner, it applies a compatibility fix that causes the application to behave correctly, ensuring a positive user experience. Applications should not rely on this behavior since it is only provided to allow legacy applications to work correctly on Windows." />
     <REQUIREMENT NUMBER="12" TITLE="App manifest compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
-      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:05s.48ms">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:06s.28ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="13" TITLE="Windows security best practices test" RATIONALE="An application should not change the default Windows security settings." />
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:05s.46ms">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:05s.90ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="62" NAME="Private Code Signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:02s.38ms">
+      <TEST INDEX="62" NAME="Private Code Signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:02s.47ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
-      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:06s.16ms">
+      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:08s.38ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="17" TITLE="Performance test" RATIONALE="The application should have a fast and responsive launch and suspend experience while consuming a reasonable amount of system resources (CPU, File IO, Memory etc.) to enable fast switching and multitasking between previously unopened applications.">
-      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:03s.28ms">
+      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:03s.76ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="60" NAME="Optimized Binding References" DESCRIPTION="When using bindings, WinJS.Binding.optimizeBindingReferences should be set to true to optimize the memory usage." EXECUTIONTIME="00h:00m:03s.15ms">
+      <TEST INDEX="60" NAME="Optimized Binding References" DESCRIPTION="When using bindings, WinJS.Binding.optimizeBindingReferences should be set to true to optimize the memory usage." EXECUTIONTIME="00h:00m:03s.68ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="43" NAME="Performance launch" DESCRIPTION="Application should have a responsive launch time with reasonable CPU, File IO and Memory usage" EXECUTIONTIME="00h:02m:51s.56ms">
+      <TEST INDEX="43" NAME="Performance launch" DESCRIPTION="Application should have a responsive launch time with reasonable CPU, File IO and Memory usage" EXECUTIONTIME="00h:03m:41s.67ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="44" NAME="Performance suspend" DESCRIPTION="Application should have a responsive suspend with reasonable CPU and File IO usage" EXECUTIONTIME="00h:02m:09s.93ms">
+      <TEST INDEX="44" NAME="Performance suspend" DESCRIPTION="Application should have a responsive suspend with reasonable CPU and File IO usage" EXECUTIONTIME="00h:02m:14s.20ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources test" RATIONALE="The Appx Package Manifest should have valid resources defined in the resources.pri file, as per the Appx Packaging Specification and Appx Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources validation" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:01s.38ms">
+      <TEST INDEX="45" NAME="App resources validation" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:01s.94ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="61" NAME="Branding validation" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:05s.11ms">
+      <TEST INDEX="61" NAME="Branding validation" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:05s.51ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
-      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:04s.40ms">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:05s.82ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="21" TITLE="File encoding" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
-      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:02s.74ms">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:02s.53ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="22" TITLE="Direct3D feature level support" RATIONALE="Applications must render content on Direct3D feature level 9.1 hardware.">
-      <TEST INDEX="51" NAME="Direct3D feature level support" DESCRIPTION="Applications must render content on Direct3D feature level 9.1 hardware." EXECUTIONTIME="00h:00m:04s.29ms">
+      <TEST INDEX="51" NAME="Direct3D feature level support" DESCRIPTION="Applications must render content on Direct3D feature level 9.1 hardware." EXECUTIONTIME="00h:00m:04s.62ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special Use Capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:02s.38ms">
+      <TEST INDEX="52" NAME="Special Use Capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:02s.54ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute test" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:01s.52ms">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute test" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:02s.14ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="57" NAME="Type location test" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:01s.21ms">
+      <TEST INDEX="57" NAME="Type location test" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:01s.31ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="55" NAME="Type name case-sensitivity test" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:01s.23ms">
+      <TEST INDEX="55" NAME="Type name case-sensitivity test" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.81ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="54" NAME="Type name correctness test" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.73ms">
+      <TEST INDEX="54" NAME="Type name correctness test" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:01s.27ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness test" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:01s.85ms">
+      <TEST INDEX="58" NAME="General metadata correctness test" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:02s.49ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="53" NAME="Properties test" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.72ms">
+      <TEST INDEX="53" NAME="Properties test" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:01s.28ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
@@ -126,25 +126,25 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="58379.TeamAssessments" Type="Application" Source="AppxPackage" Publisher="CN=F16D7FAA-20E7-4CA8-8221-9C0FC00B12C1" Version="1.0.0.3" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\58379.TeamAssessments_1.0.0.3_neutral__8tjfh7z2gfbmr" PathEvidenceId="0x17d8" RNP="0x1" DNP="0xd" EvidenceId="0x17d8" Id="00002ca594f1ace287e96c1dbb13567c780400000904">
+      <Program Name="58379.TeamAssessments" Type="Application" Source="AppxPackage" Publisher="CN=F16D7FAA-20E7-4CA8-8221-9C0FC00B12C1" Version="1.0.0.5" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\58379.TeamAssessments_1.0.0.5_neutral__8tjfh7z2gfbmr" PathEvidenceId="0x17d8" RNP="0x1" DNP="0xd" EvidenceId="0x17d8" Id="0000f640f091db98bdbf92acc862279af4b700000904">
         <Indicators>
           <DirectoryIndicators>
-            <Directory Name="js" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0x9" DNP="0xb" UniqueId="0x17de" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
-            <Directory Name="pages" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages" RNP="0x9" DNP="0xb" UniqueId="0x17e9" Id="000019ff601290dc13568ff4c70ea07fd47a73f13ab3" />
-            <Directory Name="addteam" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addteam" RNP="0x9" DNP="0xb" UniqueId="0x17ee" Id="0000271f63a7a6bb3cbfaf9eade9534d01b169c4ac40" />
-            <Directory Name="detailscategory" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailscategory" RNP="0x9" DNP="0xb" UniqueId="0x17f2" Id="000041f6f387b8df66d1c6067ce1c957458f68b05046" />
-            <Directory Name="58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr" RNP="0x9" DNP="0xb" UniqueId="0x17d9" Id="0000ccd8517e69babea5b8cfd941906e4d245374e76e" />
-            <Directory Name="addcategory" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addcategory" RNP="0x9" DNP="0xb" UniqueId="0x17ea" Id="00004621d23e6e168b5810447654d842dac5599b947a" />
-            <Directory Name="detailsteam" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailsteam" RNP="0x9" DNP="0xb" UniqueId="0x17f6" Id="00008b7e58b96867b2607759bd7288f37536d08977b2" />
-            <Directory Name="register" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\register" RNP="0x9" DNP="0xb" UniqueId="0x1802" Id="0000b45e22daa0daadc67bd833b2b389736ec1c8c849" />
-            <Directory Name="login" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\login" RNP="0x9" DNP="0xb" UniqueId="0x17fe" Id="000005290cae846f7d4afc5ea62cb969fae61177d4bb" />
-            <Directory Name="teamsassignments" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\teamsassignments" RNP="0x9" DNP="0xb" UniqueId="0x180a" Id="00003144702333e0f4065a80aad76753d0c50c70f20c" />
-            <Directory Name="home" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\home" RNP="0x9" DNP="0xb" UniqueId="0x17fa" Id="00007eb0baafbaaf8336d49e7c3224114d4f05b6a749" />
-            <Directory Name="resultassignment" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\resultassignment" RNP="0x9" DNP="0xb" UniqueId="0x1806" Id="0000c9e3711eae2100289b9cab54ac77a4cb4f1d3722" />
+            <Directory Name="addteam" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addteam" RNP="0x9" DNP="0xb" UniqueId="0x17ee" Id="0000271f63a7a6bb3cbfaf9eade9534d01b169c4ac40" />
+            <Directory Name="login" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\login" RNP="0x9" DNP="0xb" UniqueId="0x17fe" Id="000005290cae846f7d4afc5ea62cb969fae61177d4bb" />
+            <Directory Name="js" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0x9" DNP="0xb" UniqueId="0x17de" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+            <Directory Name="pages" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages" RNP="0x9" DNP="0xb" UniqueId="0x17e9" Id="000019ff601290dc13568ff4c70ea07fd47a73f13ab3" />
+            <Directory Name="register" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\register" RNP="0x9" DNP="0xb" UniqueId="0x1802" Id="0000b45e22daa0daadc67bd833b2b389736ec1c8c849" />
+            <Directory Name="teamsassignments" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\teamsassignments" RNP="0x9" DNP="0xb" UniqueId="0x180a" Id="00003144702333e0f4065a80aad76753d0c50c70f20c" />
+            <Directory Name="home" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\home" RNP="0x9" DNP="0xb" UniqueId="0x17fa" Id="00007eb0baafbaaf8336d49e7c3224114d4f05b6a749" />
+            <Directory Name="resultassignment" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\resultassignment" RNP="0x9" DNP="0xb" UniqueId="0x1806" Id="0000c9e3711eae2100289b9cab54ac77a4cb4f1d3722" />
+            <Directory Name="addcategory" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addcategory" RNP="0x9" DNP="0xb" UniqueId="0x17ea" Id="00004621d23e6e168b5810447654d842dac5599b947a" />
+            <Directory Name="detailsteam" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailsteam" RNP="0x9" DNP="0xb" UniqueId="0x17f6" Id="00008b7e58b96867b2607759bd7288f37536d08977b2" />
+            <Directory Name="detailscategory" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailscategory" RNP="0x9" DNP="0xb" UniqueId="0x17f2" Id="000041f6f387b8df66d1c6067ce1c957458f68b05046" />
+            <Directory Name="58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr" RNP="0x9" DNP="0xb" UniqueId="0x17d9" Id="00005e952713f8551cdf0f8e449c2e36f755418aac2c" />
           </DirectoryIndicators>
           <PackageManifestIndicator>
-            <PackageManifest PackageFullName="58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr" />
-            <Identity Name="58379.TeamAssessments" Version="1.0.0.3" Publisher="CN=F16D7FAA-20E7-4CA8-8221-9C0FC00B12C1" ProcessorArchitecture="neutral" />
+            <PackageManifest PackageFullName="58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr" />
+            <Identity Name="58379.TeamAssessments" Version="1.0.0.5" Publisher="CN=F16D7FAA-20E7-4CA8-8221-9C0FC00B12C1" ProcessorArchitecture="neutral" />
             <Dependencies>
               <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20602" />
             </Dependencies>
@@ -166,50 +166,59 @@
           </PackageManifestIndicator>
         </Indicators>
         <StaticProperties>
-          <Files Id="0000eeac02fa2aa3a9ede7488b13cf6a44e2c168c9b8">
-            <File Name="addteamcodebehind.js" Id="00008f351bd5115a7b24c75e6403538e7114de7d17fc" ShortName="ADDTEA~1.JS" Size="0x151" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addTeam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addteam\addteamcodebehind.js" LongPathHash="00000b463bf0a3deacf451a2ee1150c0436f0e304128" UniqueId="0x17f1" />
-            <File Name="detailsCategory.html" Id="0000d6bfe9194213850906bded030f5168a19445db64" ShortName="DETAIL~1.HTM" Size="0x7b9" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailscategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailscategory\detailscategory.html" LongPathHash="0000d9f05e6df79fc8e7fff65d754584b4811c6438ac" UniqueId="0x17f3" />
-            <File Name="detailscategorycodebehind.js" Id="0000380e46860432ce6eff5b54d8fcb3f578656f02a5" ShortName="DETAIL~2.JS" Size="0x6c5" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailscategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailscategory\detailscategorycodebehind.js" LongPathHash="0000547ec209bb9e4624ca1ad17553be3d34eba5a9c6" UniqueId="0x17f5" />
-            <File Name="detailsTeam.html" Id="0000fe10e0885b9de249681774f6462ceca109c27e05" ShortName="DETAIL~1.HTM" Size="0xa15" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailsteam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailsteam\detailsteam.html" LongPathHash="00004840104109f7ec64391d82f0c40342043ba8c953" UniqueId="0x17f7" />
-            <File Name="detailsCategory.js" Id="00001d2a77ced6940118fc3f3ec242c87be3d2eb2369" ShortName="DETAIL~1.JS" Size="0x701" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailscategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailscategory\detailscategory.js" LongPathHash="0000294fc50078cf4e6420e398f6678d4eb088abcb86" UniqueId="0x17f4" />
-            <File Name="detailsTeam.js" Id="0000f1914de6c57c594b4a494360eb04e529e239346f" ShortName="DETAIL~1.JS" Size="0x7bd" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailsteam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailsteam\detailsteam.js" LongPathHash="00003b57d4d14cdfcddcededf648089694cd6ef33747" UniqueId="0x17f8" />
-            <File Name="detailsteamcodebehind.js" Id="0000f7dceeb3579475d66dff90310c6f941c9559eee8" ShortName="DETAIL~2.JS" Size="0x533" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailsteam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\detailsteam\detailsteamcodebehind.js" LongPathHash="0000d387c8de059b4d44723d791de1d2d263b3d3e41a" UniqueId="0x17f9" />
-            <File Name="default.html" Id="000018eea388e59ee6e80e65fc340e261d23cdf58f0b" ShortName="DEFAUL~1.HTM" Size="0xb5c" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\default.html" LongPathHash="0000eca9b7b90ded1b3e030dea427e489751ce7744b8" UniqueId="0x17da" />
-            <File Name="userLoginData.js" Id="000049a75aebe840980595177f04c89d129518d12519" ShortName="USERLO~1.JS" Size="0x150" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js\userlogindata.js" LongPathHash="00003741e550a1af459f485abd21752b42fdc20ffb71" UniqueId="0x17e5" />
-            <File Name="addCategory.html" Id="0000b721fb43b77a06c929564303332216f4da4ddf42" ShortName="ADDCAT~1.HTM" Size="0x827" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addcategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addcategory\addcategory.html" LongPathHash="0000521f79ce0762d8f413dc296ad44d8a8012ea8295" UniqueId="0x17eb" />
-            <File Name="addTeam.html" Id="00005f81f1b12094a744b21050789f64df91e247c1f2" ShortName="ADDTEA~1.HTM" Size="0x62d" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addTeam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addteam\addteam.html" LongPathHash="0000e812c713029b576e24e79dd0ddda05e1fdbaa691" UniqueId="0x17ef" />
-            <File Name="home.html" Id="0000afb6227cd52cd94c4f187725caa1f8c503d1748d" ShortName="HOME~1.HTM" Size="0x1156" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\home\home.html" LongPathHash="00000ec8c1323d84470d1c4fc9019fdb76db4238615e" UniqueId="0x17fb" />
-            <File Name="home.js" Id="000039c1154b195e57745df48120c4d27bacb05b2623" Size="0x1728" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\home\home.js" LongPathHash="0000b7535389e3eef2b471bc40e3fc72706fba86e921" UniqueId="0x17fc" />
-            <File Name="addcategorycodebehind.js" Id="0000050a0c00c4654fc0a76db599f8eb3c792247a3fe" ShortName="ADDCAT~2.JS" Size="0x155" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addcategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addcategory\addcategorycodebehind.js" LongPathHash="00004eca90e979d2178c7c563928a73df34aa2bf9cb2" UniqueId="0x17ed" />
-            <File Name="sha1.js" Id="0000a5b359f735582b9b6e401907e2577e20805623ae" Size="0x1350" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js\sha1.js" LongPathHash="0000158d6afd8fbd45ff7359241784664f3d23c0b87f" UniqueId="0x17e4" />
-            <File Name="models.js" Id="0000031d63ea7330514f062e0a8049bf7c2163583cc3" Size="0xbb2" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js\models.js" LongPathHash="0000b96ddd96831a6ae5651c4433fe52c10382a5351e" UniqueId="0x17e2" />
-            <File Name="datalayer.js" Id="000075f1ee5f42aba07676fb4b1d6e53c2d35dd44f48" ShortName="DATALA~1.JS" Size="0x13bc" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js\datalayer.js" LongPathHash="000059c2571f744ee317da9879777758ebd853a92322" UniqueId="0x17df" />
-            <File Name="dataloader.js" Id="00009882b11d94b03d540033b76be857e82648bf0256" ShortName="DATALO~1.JS" Size="0x158b" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js\dataloader.js" LongPathHash="0000e92b890f0c5f72d0d8ab56e0809bfe14e6cd74be" UniqueId="0x17e0" />
-            <File Name="default.js" Id="0000a9647e28e35cd5f33d4715b11fa50d47ba5c8334" Size="0x807" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js\default.js" LongPathHash="0000c88df7af0ed5fb0779d43b4017c988b6547578e0" UniqueId="0x17e1" />
-            <File Name="navigator.js" Id="00001ed04bbe3daf1223648e4faf6af1b6e357bfb9c4" ShortName="NAVIGA~1.JS" Size="0x1928" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js\navigator.js" LongPathHash="00004234bada6ee23fc3d3e14755d2df76ba874f0e0c" UniqueId="0x17e3" />
-            <File Name="viewmodels.js" Id="0000fad14ec94031555d675f23a7100f8e7df5239d2a" ShortName="VIEWMO~1.JS" Size="0x4546" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\js\viewmodels.js" LongPathHash="00006b3d7be8ef1cce442fe5d9fa8d75839cacbc0c07" UniqueId="0x17e6" />
-            <File Name="addCategory.js" Id="00000bb5beea6915a73f56bba31c2c7c9fa172b17486" ShortName="ADDCAT~1.JS" Size="0xba7" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addcategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addcategory\addcategory.js" LongPathHash="00007bd38c5e2b81a4a410e041183234194c4da8e6ce" UniqueId="0x17ec" />
-            <File Name="addTeam.js" Id="000070ad9cf4410a53604d1671959241e551aa08111f" Size="0x6c0" BinaryType="UNKNOWN" Created="10/21/2013 06:14:32" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addTeam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\addteam\addteam.js" LongPathHash="0000600b249c42c067184b564cebadf0f37b23ed840c" UniqueId="0x17f0" />
-            <File Name="login.js" Id="0000757341c5f3fd79f5fab1c0339e79a8f464e8622d" Size="0x4c9" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\login" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\login\login.js" LongPathHash="0000b949172ca1d41e46d40c12eca6e682b42f88a2c6" UniqueId="0x1800" />
-            <File Name="teamsassignmentscodebehind.js" Id="0000db0823ffc243637498be312c06700be9502f376a" ShortName="TEAMSA~2.JS" Size="0x3ca" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:34" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\teamsassignments" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\teamsassignments\teamsassignmentscodebehind.js" LongPathHash="000068ed391efa232e743038c0bedf4744d1e5db0777" UniqueId="0x180d" />
-            <File Name="logincodebehind.js" Id="00003777ab1211cc2dd823878c326fa74a799bcbc469" ShortName="LOGINC~1.JS" Size="0x893" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\login" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\login\logincodebehind.js" LongPathHash="000078f1a52e73e72dbc47448fa7c2d5c9236790952e" UniqueId="0x1801" />
-            <File Name="register.html" Id="00000bafa2f462fcd224463cf237c35026248c1f3057" ShortName="REGIST~1.HTM" Size="0x80b" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\register" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\register\register.html" LongPathHash="00009d5d7ac973a01cb079ced96ac208332742a8cf31" UniqueId="0x1803" />
-            <File Name="registercodebehind.js" Id="000064a9c94844705fd6a144ae62ab1e720911e9c930" ShortName="REGIST~1.JS" Size="0xdf5" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\register" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\register\registercodebehind.js" LongPathHash="000013b63fe5bad2bfb2da9ae0374d92e45dffc0671c" UniqueId="0x1805" />
-            <File Name="resultassignmentcodebehind.js" Id="000001aaf69dc7551adb514c8c6910115eb80da447be" ShortName="RESULT~2.JS" Size="0x324" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\resultassignment" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\resultassignment\resultassignmentcodebehind.js" LongPathHash="0000af38f4c973647713975f4f53bb5775a8351aff8d" UniqueId="0x1809" />
-            <File Name="teamsAssignments.js" Id="000015e69aff133075fe43689c827239da69e6911f06" ShortName="TEAMSA~1.JS" Size="0x95f" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:34" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\teamsassignments" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\teamsassignments\teamsassignments.js" LongPathHash="0000dc10fdf252775ba79d1c5a2c6a597cd02a1bb020" UniqueId="0x180c" />
-            <File Name="teamsAssignments.html" Id="0000d288b2935f65e15015b51e076ff2440ef229703b" ShortName="TEAMSA~1.HTM" Size="0x805" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:34" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\teamsassignments" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\teamsassignments\teamsassignments.html" LongPathHash="000068bc7456bb5f8f2d02147da74835c803512474da" UniqueId="0x180b" />
-            <File Name="register.js" Id="0000ac47cba97cd6a6824d8724444034440073d18757" Size="0x403" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\register" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\register\register.js" LongPathHash="0000a13621a214988d0c09272e0d485305d59d81be74" UniqueId="0x1804" />
-            <File Name="login.html" Id="0000fca30b1d15ece583950f38ee5d24d615acdab5f2" ShortName="LOGIN~1.HTM" Size="0x7b8" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\login" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\login\login.html" LongPathHash="0000c7ebd441915bde7a999e9e94f2df0b83efe98a17" UniqueId="0x17ff" />
-            <File Name="resultAssignment.html" Id="0000f170d507190aac82061c7b4b1075dfe785ac8d97" ShortName="RESULT~1.HTM" Size="0x542" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\resultassignment" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\resultassignment\resultassignment.html" LongPathHash="0000986569a03e3d331d21e5a998c1c65886fc4e592f" UniqueId="0x1807" />
-            <File Name="homecodebehind.js" Id="00008f3de31d6ca7fe8e188ad99bb56cbda17e0174c3" ShortName="HOMECO~1.JS" Size="0xc1b" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\home\homecodebehind.js" LongPathHash="00003af953554e4d44c52cc498dbdd04ec6a69f2d90b" UniqueId="0x17fd" />
-            <File Name="resultAssignment.js" Id="0000612007cf1247018ca63790c54cce02daaf51fcfa" ShortName="RESULT~1.JS" Size="0xb2d" BinaryType="UNKNOWN" Created="10/21/2013 06:14:33" Modified="10/21/2013 06:14:33" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\resultassignment" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.3_neutral__8tjfh7z2gfbmr\pages\resultassignment\resultassignment.js" LongPathHash="0000b3f50ad31b68cf8eaf67fa495dd062cf0c8e8008" UniqueId="0x1808" />
+          <Files Id="00009abe91ed5a498cca69ca7208e14a60345e570f8d">
+            <File Name="default.html" Id="000018eea388e59ee6e80e65fc340e261d23cdf58f0b" ShortName="DEFAUL~1.HTM" Size="0xb5c" BinaryType="UNKNOWN" Created="11/06/2013 08:30:07" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\default.html" LongPathHash="00003dbf84eb87b0af9642afa858e2853a7314bab19b" UniqueId="0x17da" />
+            <File Name="datalayer.js" Id="000075f1ee5f42aba07676fb4b1d6e53c2d35dd44f48" ShortName="DATALA~1.JS" Size="0x13bc" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js\datalayer.js" LongPathHash="0000733571c35981ac1bf787af969aa2dd9953b9f719" UniqueId="0x17df" />
+            <File Name="addcategorycodebehind.js" Id="0000050a0c00c4654fc0a76db599f8eb3c792247a3fe" ShortName="ADDCAT~2.JS" Size="0x155" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addcategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addcategory\addcategorycodebehind.js" LongPathHash="00000d4061450d08830f2da9f4de252fae05e0cd6a0e" UniqueId="0x17ed" />
+            <File Name="detailsteamcodebehind.js" Id="0000f7dceeb3579475d66dff90310c6f941c9559eee8" ShortName="DETAIL~2.JS" Size="0x533" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailsteam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailsteam\detailsteamcodebehind.js" LongPathHash="000027827629f3a2d26c3bd0872cf5b6271efd588a82" UniqueId="0x17f9" />
+            <File Name="teamsAssignments.js" Id="00009c29752689f2e85992ec9db07e3147890ca5e709" ShortName="TEAMSA~1.JS" Size="0x967" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\teamsassignments" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\teamsassignments\teamsassignments.js" LongPathHash="0000e803a4febc856b5d0e6ca3ab165ad19e75a30651" UniqueId="0x180c" />
+            <File Name="detailsTeam.js" Id="0000f1914de6c57c594b4a494360eb04e529e239346f" ShortName="DETAIL~1.JS" Size="0x7bd" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailsteam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailsteam\detailsteam.js" LongPathHash="00009e04558c094da47f5487f2511fd6f735ac9eb183" UniqueId="0x17f8" />
+            <File Name="models.js" Id="0000031d63ea7330514f062e0a8049bf7c2163583cc3" Size="0xbb2" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js\models.js" LongPathHash="0000c359dfb9d74ebe8996e6a7f71290321fc66abc70" UniqueId="0x17e2" />
+            <File Name="addTeam.html" Id="00005f81f1b12094a744b21050789f64df91e247c1f2" ShortName="ADDTEA~1.HTM" Size="0x62d" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addTeam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addteam\addteam.html" LongPathHash="000035351e11779f2e7dd71cfff1801e43a5b0364858" UniqueId="0x17ef" />
+            <File Name="home.html" Id="0000afb6227cd52cd94c4f187725caa1f8c503d1748d" ShortName="HOME~1.HTM" Size="0x1156" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\home\home.html" LongPathHash="00003ed9e68b10399151237db5a67d62c56d771c2b69" UniqueId="0x17fb" />
+            <File Name="homecodebehind.js" Id="00008f3de31d6ca7fe8e188ad99bb56cbda17e0174c3" ShortName="HOMECO~1.JS" Size="0xc1b" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\home\homecodebehind.js" LongPathHash="0000be95fdf19ee4a6efb36538dccf1fa00f6163e59e" UniqueId="0x17fd" />
+            <File Name="teamsAssignments.html" Id="000058fe6b114313be0da9243b5fd4d0c0a243a99bb9" ShortName="TEAMSA~1.HTM" Size="0x809" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\teamsassignments" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\teamsassignments\teamsassignments.html" LongPathHash="0000b50edd6bb02213e13260e07967accf31f516d978" UniqueId="0x180b" />
+            <File Name="login.html" Id="0000fca30b1d15ece583950f38ee5d24d615acdab5f2" ShortName="LOGIN~1.HTM" Size="0x7b8" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\login" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\login\login.html" LongPathHash="000086ba530fa19f14fb5d3f22d38cd1f36d45d963c6" UniqueId="0x17ff" />
+            <File Name="navigator.js" Id="00001ed04bbe3daf1223648e4faf6af1b6e357bfb9c4" ShortName="NAVIGA~1.JS" Size="0x1928" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js\navigator.js" LongPathHash="000027c156514b117a15324fb590097cc499b1aa0b6e" UniqueId="0x17e3" />
+            <File Name="detailsCategory.html" Id="0000003611733e087c24caadabf48618f3aa3901bb5f" ShortName="DETAIL~1.HTM" Size="0x86c" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailscategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailscategory\detailscategory.html" LongPathHash="000077cd9f14fae43c3418dc5ed2c0c732e5ef5fbecf" UniqueId="0x17f3" />
+            <File Name="addCategory.js" Id="00000bb5beea6915a73f56bba31c2c7c9fa172b17486" ShortName="ADDCAT~1.JS" Size="0xba7" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addcategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addcategory\addcategory.js" LongPathHash="0000a4512cc28b1eecbeb3f730189078f4360462bd0e" UniqueId="0x17ec" />
+            <File Name="registercodebehind.js" Id="000064a9c94844705fd6a144ae62ab1e720911e9c930" ShortName="REGIST~1.JS" Size="0xdf5" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\register" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\register\registercodebehind.js" LongPathHash="00009c89e536bfee54f76ee75f6af77078246a70a066" UniqueId="0x1805" />
+            <File Name="default.js" Id="0000a9647e28e35cd5f33d4715b11fa50d47ba5c8334" Size="0x807" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js\default.js" LongPathHash="00003a7db5b98d9f7e438bea77c00c3d3a644ea4bf0f" UniqueId="0x17e1" />
+            <File Name="resultassignmentcodebehind.js" Id="000001aaf69dc7551adb514c8c6910115eb80da447be" ShortName="RESULT~2.JS" Size="0x324" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\resultassignment" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\resultassignment\resultassignmentcodebehind.js" LongPathHash="000044afe541c7f678fadf0679914f122a6f4ccc01e0" UniqueId="0x1809" />
+            <File Name="userLoginData.js" Id="000049a75aebe840980595177f04c89d129518d12519" ShortName="USERLO~1.JS" Size="0x150" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js\userlogindata.js" LongPathHash="000024ae1ba546aa84a334b14dbb24a2d37c3b0b4a30" UniqueId="0x17e5" />
+            <File Name="resultAssignment.html" Id="0000f170d507190aac82061c7b4b1075dfe785ac8d97" ShortName="RESULT~1.HTM" Size="0x542" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\resultassignment" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\resultassignment\resultassignment.html" LongPathHash="0000b9ca05f19b0aeac43f0cb049acf6064e02ed1fbe" UniqueId="0x1807" />
+            <File Name="sha1.js" Id="0000a5b359f735582b9b6e401907e2577e20805623ae" Size="0x1350" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js\sha1.js" LongPathHash="0000cc59082ccc5587a091bd2fda2e2bdbb444fe2d5b" UniqueId="0x17e4" />
+            <File Name="resultAssignment.js" Id="0000612007cf1247018ca63790c54cce02daaf51fcfa" ShortName="RESULT~1.JS" Size="0xb2d" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\resultassignment" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\resultassignment\resultassignment.js" LongPathHash="00003528bad9b23c7a6b3ccd4d36f3cd300149f712d6" UniqueId="0x1808" />
+            <File Name="addteamcodebehind.js" Id="00008f351bd5115a7b24c75e6403538e7114de7d17fc" ShortName="ADDTEA~1.JS" Size="0x151" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addTeam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addteam\addteamcodebehind.js" LongPathHash="00001a658e5bde4d8e3d4197076a097be39dfd977e93" UniqueId="0x17f1" />
+            <File Name="addCategory.html" Id="0000b721fb43b77a06c929564303332216f4da4ddf42" ShortName="ADDCAT~1.HTM" Size="0x827" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addcategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addcategory\addcategory.html" LongPathHash="0000917d8cf42f6208121a23e7b8b8a88b98bddbc576" UniqueId="0x17eb" />
+            <File Name="dataloader.js" Id="00009882b11d94b03d540033b76be857e82648bf0256" ShortName="DATALO~1.JS" Size="0x158b" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js\dataloader.js" LongPathHash="00008905e372ba7d1c8e267845d3f4dac6f2b3e351ef" UniqueId="0x17e0" />
+            <File Name="addTeam.js" Id="000070ad9cf4410a53604d1671959241e551aa08111f" Size="0x6c0" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addTeam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\addteam\addteam.js" LongPathHash="00000a400b4d4a7e438af191cdb7d5663e1185b9bd76" UniqueId="0x17f0" />
+            <File Name="register.js" Id="0000ac47cba97cd6a6824d8724444034440073d18757" Size="0x403" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\register" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\register\register.js" LongPathHash="0000eb5fbb3b729106689e5e73ed5dd41c7c33325b1a" UniqueId="0x1804" />
+            <File Name="viewmodels.js" Id="0000fad14ec94031555d675f23a7100f8e7df5239d2a" ShortName="VIEWMO~1.JS" Size="0x4546" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\js\viewmodels.js" LongPathHash="0000cd581351766f8ad1339129cae59c90a80c4a8345" UniqueId="0x17e6" />
+            <File Name="detailsTeam.html" Id="0000fe10e0885b9de249681774f6462ceca109c27e05" ShortName="DETAIL~1.HTM" Size="0xa15" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailsteam" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailsteam\detailsteam.html" LongPathHash="0000983bbf6332778cf9ace8500af4e102448b5ce64b" UniqueId="0x17f7" />
+            <File Name="detailsCategory.js" Id="00001d2a77ced6940118fc3f3ec242c87be3d2eb2369" ShortName="DETAIL~1.JS" Size="0x701" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailscategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailscategory\detailscategory.js" LongPathHash="0000a9b26c4ee7a2ae586d2da92efc0b2941bd551b3b" UniqueId="0x17f4" />
+            <File Name="home.js" Id="000010a0b8876b895ab17dcad5a319c57f088c66e3be" Size="0x177d" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\home\home.js" LongPathHash="000038e983dd2f1a6f7c7442fadf915b6aab2564172d" UniqueId="0x17fc" />
+            <File Name="register.html" Id="00000bafa2f462fcd224463cf237c35026248c1f3057" ShortName="REGIST~1.HTM" Size="0x80b" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\register" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\register\register.html" LongPathHash="00003a7b8b429c6519ce46d9484308459dd83b21d743" UniqueId="0x1803" />
+            <File Name="teamsassignmentscodebehind.js" Id="0000db0823ffc243637498be312c06700be9502f376a" ShortName="TEAMSA~2.JS" Size="0x3ca" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\teamsassignments" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\teamsassignments\teamsassignmentscodebehind.js" LongPathHash="0000577bb2853cd7ca9d7c1e10e09673c563acc9df59" UniqueId="0x180d" />
+            <File Name="detailscategorycodebehind.js" Id="0000380e46860432ce6eff5b54d8fcb3f578656f02a5" ShortName="DETAIL~2.JS" Size="0x6c5" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailscategory" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\detailscategory\detailscategorycodebehind.js" LongPathHash="0000a1a64f60c8351324b161aaaf88ffc2af820ac01e" UniqueId="0x17f5" />
+            <File Name="login.js" Id="0000757341c5f3fd79f5fab1c0339e79a8f464e8622d" Size="0x4c9" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\login" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\login\login.js" LongPathHash="0000aaaa90c8fb7a8d273fa62e3386504fa8ab284bf3" UniqueId="0x1800" />
+            <File Name="logincodebehind.js" Id="000073919c5325eb14f5fa205d085d30f43325befb70" ShortName="LOGINC~1.JS" Size="0x897" BinaryType="UNKNOWN" Created="11/06/2013 08:30:08" Modified="11/06/2013 08:30:08" Path="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\login" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58379.teamassessments_1.0.0.5_neutral__8tjfh7z2gfbmr\pages\login\logincodebehind.js" LongPathHash="00005bedccaadcf77404a0c067a6eae5efd65b024e84" UniqueId="0x1801" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="00002ca594f1ace287e96c1dbb13567c780400000904" AnalysisVersion="1.54" DictionaryVersion="1.6" Type="Package" Id="58379.TeamAssessments_1.0.0.3_neutral__8tjfh7z2gfbmr">
+    <AitStaticAnalysis ProgramId="0000f640f091db98bdbf92acc862279af4b700000904" AnalysisVersion="1.54" DictionaryVersion="1.6" Type="Package" Id="58379.TeamAssessments_1.0.0.5_neutral__8tjfh7z2gfbmr">
+      <AitFile ErrorCode="0" Name="detailsCategory.html" Id="0000003611733e087c24caadabf48618f3aa3901bb5f">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+          <AitFeature Name="WinJS.Binding.Template" />
+          <AitFeature Name="WinJS.UI.GridLayout" />
+          <AitFeature Name="WinJS.UI.ListView" />
+        </AitCategory>
+      </AitFile>
       <AitFile ErrorCode="0" Name="resultassignmentcodebehind.js" Id="000001aaf69dc7551adb514c8c6910115eb80da447be">
         <AitCategory Id="WRTJavaScript">
           <AitFeature Name="WinJS.Namespace.define" />
@@ -241,11 +250,12 @@
           <AitFeature Name="WinJS.UI.Pages.define" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="teamsAssignments.js" Id="000015e69aff133075fe43689c827239da69e6911f06">
+      <AitFile ErrorCode="0" Name="home.js" Id="000010a0b8876b895ab17dcad5a319c57f088c66e3be">
         <AitCategory Id="WRTJavaScript">
-          <AitFeature Name="WinJS.Binding.processAll" />
           <AitFeature Name="WinJS.Navigation.navigate" />
           <AitFeature Name="WinJS.UI.Pages.define" />
+          <AitFeature Name="Windows.Security.Credentials.PasswordVault" />
+          <AitFeature Name="Windows.UI.Popups.MessageDialog" />
         </AitCategory>
       </AitFile>
       <AitFile ErrorCode="0" Name="default.html" Id="000018eea388e59ee6e80e65fc340e261d23cdf58f0b">
@@ -278,17 +288,6 @@
           <AitFeature Name="Windows.UI.ViewManagement.ApplicationView" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="logincodebehind.js" Id="00003777ab1211cc2dd823878c326fa74a799bcbc469">
-        <AitCategory Id="WRTJavaScript">
-          <AitFeature Name="WinJS.Namespace.define" />
-          <AitFeature Name="WinJS.Navigation.back" />
-          <AitFeature Name="WinJS.Navigation.navigate" />
-          <AitFeature Name="WinJS.Utilities.markSupportedForProcessing" />
-          <AitFeature Name="Windows.Security.Credentials.PasswordCredential" />
-          <AitFeature Name="Windows.Security.Credentials.PasswordVault" />
-          <AitFeature Name="Windows.UI.Popups.MessageDialog" />
-        </AitCategory>
-      </AitFile>
       <AitFile ErrorCode="0" Name="detailscategorycodebehind.js" Id="0000380e46860432ce6eff5b54d8fcb3f578656f02a5">
         <AitCategory Id="WRTJavaScript">
           <AitFeature Name="WinJS.1.0" />
@@ -297,17 +296,17 @@
           <AitFeature Name="WinJS.Utilities.markSupportedForProcessing" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="home.js" Id="000039c1154b195e57745df48120c4d27bacb05b2623">
-        <AitCategory Id="WRTJavaScript">
-          <AitFeature Name="WinJS.Navigation.navigate" />
-          <AitFeature Name="WinJS.UI.Pages.define" />
-          <AitFeature Name="Windows.Security.Credentials.PasswordVault" />
-          <AitFeature Name="Windows.UI.Popups.MessageDialog" />
-        </AitCategory>
-      </AitFile>
       <AitFile ErrorCode="0" Name="userLoginData.js" Id="000049a75aebe840980595177f04c89d129518d12519">
         <AitCategory Id="WRTJavaScript">
           <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="teamsAssignments.html" Id="000058fe6b114313be0da9243b5fd4d0c0a243a99bb9">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+          <AitFeature Name="WinJS.Binding.Template" />
+          <AitFeature Name="WinJS.UI.ListView" />
         </AitCategory>
       </AitFile>
       <AitFile ErrorCode="0" Name="addTeam.html" Id="00005f81f1b12094a744b21050789f64df91e247c1f2">
@@ -338,6 +337,17 @@
       <AitFile ErrorCode="0" Name="addTeam.js" Id="000070ad9cf4410a53604d1671959241e551aa08111f">
         <AitCategory Id="WRTJavaScript">
           <AitFeature Name="WinJS.UI.Pages.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="logincodebehind.js" Id="000073919c5325eb14f5fa205d085d30f43325befb70">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Navigation.back" />
+          <AitFeature Name="WinJS.Navigation.navigate" />
+          <AitFeature Name="WinJS.Utilities.markSupportedForProcessing" />
+          <AitFeature Name="Windows.Security.Credentials.PasswordCredential" />
+          <AitFeature Name="Windows.Security.Credentials.PasswordVault" />
+          <AitFeature Name="Windows.UI.Popups.MessageDialog" />
         </AitCategory>
       </AitFile>
       <AitFile ErrorCode="0" Name="login.js" Id="0000757341c5f3fd79f5fab1c0339e79a8f464e8622d">
@@ -377,6 +387,13 @@
           <AitFeature Name="WinJS.xhr" />
         </AitCategory>
       </AitFile>
+      <AitFile ErrorCode="0" Name="teamsAssignments.js" Id="00009c29752689f2e85992ec9db07e3147890ca5e709">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.processAll" />
+          <AitFeature Name="WinJS.Navigation.navigate" />
+          <AitFeature Name="WinJS.UI.Pages.define" />
+        </AitCategory>
+      </AitFile>
       <AitFile ErrorCode="0" Name="sha1.js" Id="0000a5b359f735582b9b6e401907e2577e20805623ae">
         <AitCategory Id="WRTJavaScript">
           <AitFeature Name="WinJS.Namespace.define" />
@@ -414,22 +431,6 @@
         <AitCategory Id="WRTJavaScript">
           <AitFeature Name="WinJS" />
           <AitFeature Name="WinJS.1.0" />
-        </AitCategory>
-      </AitFile>
-      <AitFile ErrorCode="0" Name="teamsAssignments.html" Id="0000d288b2935f65e15015b51e076ff2440ef229703b">
-        <AitCategory Id="WRTJavaScript">
-          <AitFeature Name="WinJS" />
-          <AitFeature Name="WinJS.1.0" />
-          <AitFeature Name="WinJS.Binding.Template" />
-          <AitFeature Name="WinJS.UI.ListView" />
-        </AitCategory>
-      </AitFile>
-      <AitFile ErrorCode="0" Name="detailsCategory.html" Id="0000d6bfe9194213850906bded030f5168a19445db64">
-        <AitCategory Id="WRTJavaScript">
-          <AitFeature Name="WinJS" />
-          <AitFeature Name="WinJS.1.0" />
-          <AitFeature Name="WinJS.Binding.Template" />
-          <AitFeature Name="WinJS.UI.ListView" />
         </AitCategory>
       </AitFile>
       <AitFile ErrorCode="0" Name="teamsassignmentscodebehind.js" Id="0000db0823ffc243637498be312c06700be9502f376a">

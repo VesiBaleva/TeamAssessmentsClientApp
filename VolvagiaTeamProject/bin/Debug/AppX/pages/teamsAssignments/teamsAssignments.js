@@ -23,8 +23,8 @@
             var assignments = ViewModels.Assignments.assignments;
             //var results = ViewModels.Results.results;
             //var assignmentsresults = ViewModels.AssignmentsResults.assignmentsResults;
-            WinJS.Binding.processAll(document.getElementById("assignmentsListView"), assignments);
-            var listView = document.getElementById("assignmentsListView").winControl;
+            WinJS.Binding.processAll(document.getElementById("assignmentsTeamListView"), assignments);
+            var listView = document.getElementById("assignmentsTeamListView").winControl;
             listView.oniteminvoked = function (invokeEvent) {
                 WinJS.Navigation.navigate("/pages/resultAssignment/resultAssignment.html", {
                     indexInCategoriesList: currentCategoryIndex,

@@ -59,7 +59,8 @@
                     }
                     else {
                         HomeCodeBehind.callLoadTeams().then(function () {
-                        //    progressRing.style.display = "none";
+                            //    progressRing.style.display = "none";
+                            HomeCodeBehind.callLoadCategories();
                             if (ViewModels.Teams.teams.dataSource.list.length == 0) {
                                 document.getElementById("no-layout-responsive-message").style.display = "block";
                                 var appBar = document.getElementById("home-app-bar").winControl;
@@ -89,7 +90,7 @@
             }
 
             var logOutBtn = document.getElementById("log-out-button");
-            logOutBtn.addEventListener("click", function () {
+            logOutBtn.addEventListener("click", function () {                
                 ViewModels.Users.logout().then(function () {
                     var appBar = document.getElementById("home-app-bar").winControl;
                     if (appBar) {

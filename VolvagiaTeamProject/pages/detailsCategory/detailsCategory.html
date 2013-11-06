@@ -36,7 +36,11 @@
             <div id="assignmentsListView" data-win-control="WinJS.UI.ListView"
                 data-win-options="{itemDataSource : ViewModels.Assignments.assignments.dataSource, 
                     itemTemplate: select('#assignments-list-template'),
-                    selectionMode: 'none'}">
+                    selectionMode: 'none',
+                    swipeBehavior:'none',
+                    tapBehavior:'none',                    
+                    layout:{type: WinJS.UI.GridLayout}}
+                    ">
             </div>
         </section>
     </div>

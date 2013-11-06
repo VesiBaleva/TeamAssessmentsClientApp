@@ -3,7 +3,14 @@
     margin-right: 120px;
 }
 
+#assignmentsListView .win-container{
+    background-color: transparent; 
+}  
 
+#assignmentsListView .win-container:hover {
+    background-color: transparent; 
+    outline:  none;
+}  
 
 #snapped-logo {
     display: none;
